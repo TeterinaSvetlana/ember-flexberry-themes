@@ -8,10 +8,6 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-
-  .hidden {
-    display: none;
-  }
 }
 
 .sitemap-search-results-list {
@@ -32,6 +28,10 @@
   width: @searchbarWidth;
   z-index: 1;
   padding-top: 10px;
+
+  .hidden {
+    display: none;
+  }
 
   &::-webkit-scrollbar {
     width: 5px;
