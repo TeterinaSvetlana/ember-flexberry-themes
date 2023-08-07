@@ -29,10 +29,6 @@
   z-index: 1;
   padding-top: 10px;
 
-  .hidden {
-    display: none;
-  }
-
   &::-webkit-scrollbar {
     width: 5px;
   }
@@ -100,6 +96,10 @@
   color: @textColor;
   width: @searchbarWidth;
   z-index: 2;
+
+  .hidden {
+    display: none;
+  }
 
   &::placeholder {
     color: @searchbarPlaceholderColor;
